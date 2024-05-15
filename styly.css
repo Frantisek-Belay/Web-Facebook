@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+ol {
+  margin-left: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* End of Global Rules */
+
+#container {
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1374ea;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+#logo img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+main h2 {
+  text-align: center;
+  color: #1374ea;
+}
+
+main p {
+  background-color: #1374ea;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+/*Formulář*/
+
+form {
+  text-align: center;
+}
+
+form input {
+  font-size: large;
+  margin-top: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  text-align: center;
+  background-color: #eef6f8;
+}
+
+input[type="submit"] {
+  background-color: #1374ea;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  border: #1374ea 2px solid;
+}
+
+input[type="submit"]:hover {
+  background-color: #6e8ac5;
+  color: #233b6f;
+  font-size: x-large;
+  font-weight: bold;
+  border: #233b6f 2px solid;
+}
+/*Patička*/
+footer p {
+  text-align: center;
+  background-color: #1374ea;
+  color: white;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+/* footer {
+  display: block;
+  margin: 0 auto;
+} */
